@@ -9,7 +9,7 @@
  *
  * Return 0 (succes)
  */
-int main(void)
+int main(void)/*i dont know */
 {
 	int n;
 
