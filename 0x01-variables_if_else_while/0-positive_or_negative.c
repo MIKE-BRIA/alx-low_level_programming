@@ -1,14 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
 /**
- * main -a program that runs a loop
+ * main -Entry point
  *
  * Return 0 (succes)
  */
-
 int main(void)
 {
 	int n;
