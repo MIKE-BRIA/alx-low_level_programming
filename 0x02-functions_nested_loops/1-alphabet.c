@@ -3,7 +3,7 @@
 /**
  * print_alphabet Entry point
  *
- * Return:0
+ * Return:Always 0(success)
  */
 void print_alphabet(void)
 {
