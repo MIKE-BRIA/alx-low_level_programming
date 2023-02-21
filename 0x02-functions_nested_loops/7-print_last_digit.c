@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_last_digit -prints last
- * @n: number to be created
- * Return: value of last digit
+ * print_last_digit - prints the last dig
+ * @n: THe number to be treated
+ * Return: Value of the last dig
  */
 int print_last_digit(int n)
 {
@@ -14,7 +14,6 @@ int print_last_digit(int n)
 	{
 	last = last * -1;
 	}
-	_putchar(last * '0');
+	_putchar(last + '0');
 	return (last);
 }
-	
