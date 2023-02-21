@@ -1,18 +1,17 @@
 #include "main.h"
 
 /**
- * print_alphabet -2-print_alphabet_x10.c
- *
- * Return:0
+ * print_alphabet_x10 -make alphabet x10
+ * Return: void
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	char c;
 	int i = 0;
 
 	while (i <= 9)
 	{
-	for(c = 'a';c <= 'z'; c++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
 	_putchar(c);
 	}
@@ -20,4 +19,3 @@ void print_alphabet(void)
 	i++;
 	}
 }
-	
