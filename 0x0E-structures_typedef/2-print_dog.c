@@ -1,5 +1,6 @@
-nclude "dog.h"
-
+#include "dog.h"
+#include <stddef.h>
+#include <stdio.h>
 /**
  * print_dog - prints all the data of a dog
  * @d: A dog structure
